@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.header{
+	height: 300vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/car2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+	background-position: center;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.product-container {
+    width: 70%;
+    height: 280vh;
+    overflow: hidden;
+    color: #fff;
+    float: left;
+	box-sizing: border-box;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.product-container h1{
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+}
+
+ul li{
+    margin-top: 30px;
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border:1px solid transparent;
+	transition: 0.6s ease
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo{
+	float: left;
+	width: 150px;
+	height: auto;
+    color: #fff;
+    padding-top: 16px;
+    padding-left: 250px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.button{
+	position: absolute;
+    margin-left: 125px;
+	transform: translate(-50%,-50%);
+}
+
+.prct-btn{
+	border: 1px solid #fff;
+	padding:10px 70px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.prct-btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 180px;
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+.img-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.heading {    
+	position: absolute;
+    margin-left: 155px;
+	margin-bottom: 30px;
+	transform: translate(-50%,-50%);
+	border: 1px solid #fff;
+	padding:10px 20px;
+	text-decoration: none;
+}
+
+.heading-long-legnth {
+	text-align: center; /* Center the text */
+    border: 1px solid white; /* Add a border with white color */
+    padding: 5px; /* Add some padding for better aesthetics */
+    max-width: 400px; /* Set a maximum width for the box */
+    margin: auto; /* Center the box horizontally using margin */
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+.product-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text {
+	margin-top: 30px;
+	width: 250px;
+    text-align: center;
+}
+
+.read-more {
+	position: absolute;
+    margin-left: 125px;
+	margin-top: 60px;
+	transform: translate(-50%,-50%);
+}
+
+.brand1 {
+	padding:20px 20px;
+	border: 1px solid #fff;
+}
+
+.brand1:hover {
+	background-color: #000;
+	opacity: 1;
+	transition: 0.6s ease;
+}
+
+/*Footer*/
+
+.footerv{
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background:#2a2a2a;             /*ecarparts.lk private company bar color*/
+	height: auto;
+	width: 100%;
+	font-family: 'Times New Roman', Times, serif;
+	padding-top: 40px;
+	color:#fff;                 /*ecarparts.lk colour change*/
+  }
+  .footercontent{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+  }
+  .footercontent h3{
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 16px;
+  }
+  .footercontent p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 12px;
+  }
+  .social{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0 30px 0;
+  }
+  .social li{
+	margin: 0 10px;
+  }
+  .social a{
+	text-decoration: none;
+	color:#fff;         /*facebook ,instra color*/
+  }
+  .social a img{
+	height: 30px;
+	width: 30px;
+  }
+  .social a i{
+	font-size: 18px;
+	transition: color 60s ease; 
+  }
+  .social a:hover i{
+	color:#000;         /*touching social color*/
+  }
+  .footerbottom{
+  
+	background:#000;     /*low bar*/
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+  }
+  .footerbottom p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+  }
+  .footerbottom span{
+	text-transform: uppercase;
+	opacity: 0.4;
+	font-weight: 200;
+  }
