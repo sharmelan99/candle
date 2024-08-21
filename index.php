@@ -8,7 +8,7 @@
 	<div class="header">
         <div class="menu-bar">
             <div class="logo">
-                <h1>EcarParts.lk - New</h1>
+                <h1>EcarParts.lk</h1>
             </div>
             
             <div class="main">
